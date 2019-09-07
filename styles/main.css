@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'BerlingskeSerif-Regular';
+    src: url('../font/BerlingskeSerif-Regular.eot');
+    src: url('../font/BerlingskeSerif-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/BerlingskeSerif-Regular.svg#BerlingskeSerif-Regular') format('svg'),
+         url('../font/BerlingskeSerif-Regular.ttf') format('truetype'),
+         url('../font/BerlingskeSerif-Regular.woff') format('woff'),
+         url('../font/BerlingskeSerif-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BerlingskeSerif-Italic';
+    src: url('../font/BerlingskeSerif-Italic.eot');
+    src: url('../font/BerlingskeSerif-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../font/BerlingskeSerif-Italic.svg#BerlingskeSerif-Italic') format('svg'),
+         url('../font/BerlingskeSerif-Italic.ttf') format('truetype'),
+         url('../font/BerlingskeSerif-Italic.woff') format('woff'),
+         url('../font/BerlingskeSerif-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GTEestiProDisplay-Regular';
+    src: url('../font/GTEestiProDisplay-Regular.eot');
+    src: url('../font/GTEestiProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/GTEestiProDisplay-Regular.svg#GTEestiProDisplay-Regular') format('svg'),
+         url('../font/GTEestiProDisplay-Regular.ttf') format('truetype'),
+         url('../font/GTEestiProDisplay-Regular.woff') format('woff'),
+         url('../font/GTEestiProDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GTEestiProDisplay-Light';
+    src: url('../font/GTEestiProDisplay-Light.eot');
+    src: url('../font/GTEestiProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+         url('../font/GTEestiProDisplay-Light.svg#GTEestiProDisplay-Light') format('svg'),
+         url('../font/GTEestiProDisplay-Light.ttf') format('truetype'),
+         url('../font/GTEestiProDisplay-Light.woff') format('woff'),
+         url('../font/GTEestiProDisplay-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'GTEestiProDisplay-Medium';
+    src: url('../fontGTEestiProDisplay-Medium.eot');
+    src: url('../fontGTEestiProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fontGTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium') format('svg'),
+         url('../fontGTEestiProDisplay-Medium.ttf') format('truetype'),
+         url('../fontGTEestiProDisplay-Medium.woff') format('woff'),
+         url('../fontGTEestiProDisplay-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {display: flex;}
+body, p{margin: 0; padding: 0;}
+ul {list-style-type: none; padding: 0;}
+a {text-decoration: none;}
+button {cursor: pointer;}
+
+.btn1 {transition: 0.3s; font-family: GTEestiProDisplay-Medium;color: #407e97; border: 1px solid #407e97; border-radius: 30px; background: none; width: 170px; padding: 10px;}
+.btn1:hover {color: white; background-color: #407e97;}
+.btn2 {text-transform: uppercase; border: 0; background-color: #407e97 !important; transition: 0.3s; font-family: GTEestiProDisplay-Medium; color: white; border-radius: 30px; background: none; width: 210px; padding: 13px; font-size: 12px;}
+.btn2:hover {color: white;}
+
+
+.leftMenu{display: flex; flex-direction: column; min-height: 100vh; width: 315px; min-width: 232px;}
+.leftMenuTop{display: flex; background-color: #37342f; flex: 4; flex-direction: column; align-items: center;}
+
+.logo1 {margin: 2vh 0 0 0;}
+
+.mainMenuDiv {display: flex; flex: 1; justify-content: center; flex-direction: column;} 
+.mainMenuDiv ul {margin: 0 0 0 -75px;}
+.mainMenuDiv ul li { font-size: 14px; color: white; text-transform: uppercase; font-family: GTEestiProDisplay-Regular; padding: 22px 35px 16px 35px; cursor: pointer; border-radius: 5px; line-height: 20px; transition: 0.2s;}
+.mainMenuDiv ul li:hover {background-color: #407e97; }
+
+
+.leftMenuBot {justify-content: space-between; display: flex; background-color: #2f2d29; flex: 2; flex-direction: column; padding: 40px 0 40px 54px;}
+.leftMenuBotText1 {color: #a7a6a4; font-size: 14.5px; font-family: GTEestiProDisplay-Light;}
+.leftMenuBotText2 {transition: 0.3s; color: white; font-size: 18px; font-family: GTEestiProDisplay-Regular;}
+.leftMenuBotText2:hover {opacity: 0.5;}
+
+.socIcons li {display: inline;}
+.socIcons li a img {transition: 0.3s; padding: 0 6px 0 0;}
+.socIcons li a img:hover {opacity: 0.5;}
+
+.kkpk{color: #a7a6a4;}
+.kkpk a{transition: 0.3s; text-decoration: underline; color: #a7a6a4; font-size: 13px;}
+.kkpk a:hover {text-decoration: none; color: white;}
+
+.rightBlock {display: flex; flex-direction: column; min-height: 100vh; flex:1; background: url('../img/fon.png'); background-size: cover; background-position: center;}
+
+.mainheader {padding: 20px 20px 20px 20px; display: flex; justify-content: space-between;}
+.headerEmail {padding: 0 40px 0 0; transition: 0.3s; color: #2f2d29; font-family: GTEestiProDisplay-Regular;}
+.headerEmail:hover {opacity: 0.8;}
+
+
+.mainheaderRightDiv{height: 100%; display: flex; align-items: flex-end;}
+.mainheaderNumber {padding: 0 40px 0 0; transition: 0.3s; color: #2f2d29; font-size: 18px; font-family: GTEestiProDisplay-Regular;}
+.mainheaderNumber:hover {opacity: 0.8;}
+
+.rightBlockBot {display: flex; flex: 1; justify-content: center; align-items: center;}
+.playVideo {border-radius: 40px; padding: 23px 60px 23px 60px; display: flex; background-color: #ffffffeb; cursor: pointer;}
+.playVideo img {margin: 0 10px 0 0;}
+.playVideo p {color: #407e97; font-family: GTEestiProDisplay-Medium;}
