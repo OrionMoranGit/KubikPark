@@ -44,12 +44,12 @@
 } 
 @font-face {
     font-family: 'GTEestiProDisplay-Medium';
-    src: url('../fontGTEestiProDisplay-Medium.eot');
-    src: url('../fontGTEestiProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-         url('../fontGTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium') format('svg'),
-         url('../fontGTEestiProDisplay-Medium.ttf') format('truetype'),
-         url('../fontGTEestiProDisplay-Medium.woff') format('woff'),
-         url('../fontGTEestiProDisplay-Medium.woff2') format('woff2');
+    src: url('../font/GTEestiProDisplay-Medium.eot');
+    src: url('../font/GTEestiProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../font/GTEestiProDisplay-Medium.svg#GTEestiProDisplay-Medium') format('svg'),
+         url('../font/GTEestiProDisplay-Medium.ttf') format('truetype'),
+         url('../font/GTEestiProDisplay-Medium.woff') format('woff'),
+         url('../font/GTEestiProDisplay-Medium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -63,7 +63,9 @@ button {cursor: pointer;}
 .btn1 {transition: 0.3s; font-family: GTEestiProDisplay-Medium;color: #407e97; border: 1px solid #407e97; border-radius: 30px; background: none; width: 170px; padding: 10px;}
 .btn1:hover {color: white; background-color: #407e97;}
 .btn2 {text-transform: uppercase; border: 0; background-color: #407e97 !important; transition: 0.3s; font-family: GTEestiProDisplay-Medium; color: white; border-radius: 30px; background: none; width: 210px; padding: 13px; font-size: 12px;}
-.btn2:hover {color: white;}
+.btn2:hover {background: #349ec8;}
+.btn3 {transition: 0.3s; font-family: GTEestiProDisplay-Medium;color: #407e97; border: 1px solid #407e97; border-radius: 30px; background: none; width: 200px; padding: 10px;}
+.btn3:hover {color: white; background-color: #407e97;}
 
 
 .leftMenu{display: flex; flex-direction: column; min-height: 100vh; width: 315px; min-width: 232px;}
@@ -73,8 +75,9 @@ button {cursor: pointer;}
 
 .mainMenuDiv {display: flex; flex: 1; justify-content: center; flex-direction: column;} 
 .mainMenuDiv ul {margin: 0 0 0 -75px;}
-.mainMenuDiv ul li { font-size: 14px; color: white; text-transform: uppercase; font-family: GTEestiProDisplay-Regular; padding: 22px 35px 16px 35px; cursor: pointer; border-radius: 5px; line-height: 20px; transition: 0.2s;}
+.mainMenuDiv ul li { color: white; text-transform: uppercase; font-family: GTEestiProDisplay-Regular; padding: 22px 35px 16px 35px; cursor: pointer; border-radius: 5px; line-height: 20px; transition: 0.2s;}
 .mainMenuDiv ul li:hover {background-color: #407e97; }
+.mainMenuDiv ul li a {color: white; font-size: 14px;}
 
 
 .leftMenuBot {justify-content: space-between; display: flex; background-color: #2f2d29; flex: 2; flex-direction: column; padding: 40px 0 40px 54px;}
@@ -91,9 +94,10 @@ button {cursor: pointer;}
 .kkpk a:hover {text-decoration: none; color: white;}
 
 .rightBlock {display: flex; flex-direction: column; min-height: 100vh; flex:1; background: url('../img/fon.png'); background-size: cover; background-position: center;}
+.rightBlockNP {background: none;} 
 
 .mainheader {padding: 20px 20px 20px 20px; display: flex; justify-content: space-between;}
-.headerEmail {padding: 0 40px 0 0; transition: 0.3s; color: #2f2d29; font-family: GTEestiProDisplay-Regular;}
+.headerEmail { padding: 0 40px 0 0; transition: 0.3s; color: #2f2d29; font-family: GTEestiProDisplay-Regular;}
 .headerEmail:hover {opacity: 0.8;}
 
 
@@ -101,7 +105,23 @@ button {cursor: pointer;}
 .mainheaderNumber {padding: 0 40px 0 0; transition: 0.3s; color: #2f2d29; font-size: 18px; font-family: GTEestiProDisplay-Regular;}
 .mainheaderNumber:hover {opacity: 0.8;}
 
+.HouseDiv {display: flex; height: 100%; flex-direction: column;}
+
 .rightBlockBot {display: flex; flex: 1; justify-content: center; align-items: center;}
 .playVideo {border-radius: 40px; padding: 23px 60px 23px 60px; display: flex; background-color: #ffffffeb; cursor: pointer;}
 .playVideo img {margin: 0 10px 0 0;}
 .playVideo p {color: #407e97; font-family: GTEestiProDisplay-Medium;}
+
+.Block1Text {margin-right: 30px; font-family: GTEestiProDisplay-Medium; font-size: 28px; mar}
+
+.pg1Block {display: flex;}
+
+.Block2Text {color: #7b7b7b; font-size: 18px; line-height: 30px;}
+
+.pg2Block {display: flex; justify-content: space-between;}
+
+.card1 {display: flex; flex-direction: column; flex: 1; max-width: 394px; align-items: center;}
+.card1:nth-last-child(2) {padding: 0 10px 0 10px;}
+.card1 img {width: 100%;}
+
+.cardText {margin: 10px 0 10px 0; color: #7b7b7b; font-size: 16.5;}
