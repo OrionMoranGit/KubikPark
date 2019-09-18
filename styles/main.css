@@ -60,12 +60,19 @@ ul {list-style-type: none; padding: 0;}
 a {text-decoration: none;}
 button {cursor: pointer;}
 
+.center {display: flex; justify-content: center; width: 100%;}
+
 .btn1 {transition: 0.3s; font-family: GTEestiProDisplay-Medium;color: #407e97; border: 1px solid #407e97; border-radius: 30px; background: none; width: 170px; padding: 10px;}
 .btn1:hover {color: white; background-color: #407e97;}
 .btn2 {text-transform: uppercase; border: 0; background-color: #407e97 !important; transition: 0.3s; font-family: GTEestiProDisplay-Medium; color: white; border-radius: 30px; background: none; width: 210px; padding: 13px; font-size: 12px;}
-.btn2:hover {background: #349ec8;}
+.btn2:hover {color: white; background-color: #349ec8 !important;}
 .btn3 {transition: 0.3s; font-family: GTEestiProDisplay-Medium;color: #407e97; border: 1px solid #407e97; border-radius: 30px; background: none; width: 200px; padding: 10px;}
 .btn3:hover {color: white; background-color: #407e97;}
+.btn4_1 {padding: 20px 0 20px 0; border-radius: 5px; background: none; width: 300px; color: #407e97; border: 2px solid #407e97; font-size: 13.5; background-color: none; font-family: GTEestiProDisplay-Medium;}
+.btn4_2 {transition: 0.3s; border-radius: 5px; background: none; width: 300px; color: #b3b4b8; border: 2px solid #b3b4b8; font-size: 13.5; background-color: none; font-family: GTEestiProDisplay-Medium;}
+.btn4_2:hover {padding: 20px 0 20px 0; border-radius: 5px; background: none; width: 300px; color: #407e97; border: 2px solid #407e97; font-size: 13.5; background-color: none; font-family: GTEestiProDisplay-Medium;}
+.btn5 {border: 1px solid #407e97; transition: 0.3s; padding: 20px 0 20px 0; font-family: GTEestiProDisplay-Medium; width: 250px; background-color: white; color: #407e97; border: 0; border-radius: 10px;}
+.btn5:hover {background: none; color: white; border: 1px solid white;}
 
 
 .leftMenu{display: flex; flex-direction: column; min-height: 100vh; width: 315px; min-width: 232px;}
@@ -93,28 +100,34 @@ button {cursor: pointer;}
 .kkpk a{transition: 0.3s; text-decoration: underline; color: #a7a6a4; font-size: 13px;}
 .kkpk a:hover {text-decoration: none; color: white;}
 
-.rightBlock {display: flex; flex-direction: column; min-height: 100vh; flex:1; background: url('../img/fon.png'); background-size: cover; background-position: center;}
-.rightBlockNP {background: none;} 
+.rightBlock {display: flex; flex-direction: column; min-height: 100vh; flex:1;}
+.rightBlockImg1 {background: url('../img/fon.png'); background-size: cover; background-position: center;} 
+.rightBlockImg2 {background: url('../img/infrastructure.png'); background-size: cover; background-position: center;} 
 
-.mainheader {padding: 20px 20px 20px 20px; display: flex; justify-content: space-between;}
+
+.mainheader {padding: 20px 4vw 20px 4vw; display: flex; justify-content: space-between;}
 .headerEmail { padding: 0 40px 0 0; transition: 0.3s; color: #2f2d29; font-family: GTEestiProDisplay-Regular;}
 .headerEmail:hover {opacity: 0.8;}
 
 
 .mainheaderRightDiv{height: 100%; display: flex; align-items: flex-end;}
+.mainheaderRightDivWhiteBack {margin-right: 80px; display: flex; justify-content: center; background-color: #ffffffd4; padding: 12px 30px 6px 30px; border-radius: 30px;}
 .mainheaderNumber {padding: 0 40px 0 0; transition: 0.3s; color: #2f2d29; font-size: 18px; font-family: GTEestiProDisplay-Regular;}
 .mainheaderNumber:hover {opacity: 0.8;}
+.mainheaderNumber2 {padding-right: 0}
 
-.HouseDiv {display: flex; height: 100%; flex-direction: column;}
+.RightBlockCenterDiv {padding-top: 30px; display: flex; height: 100%; flex-direction: column; width: 70vw;}
+.RightBlockCenterDiv2 {padding-top: 30px; display: flex; height: 100%; flex-direction: column; width: 54vw;}
+
 
 .rightBlockBot {display: flex; flex: 1; justify-content: center; align-items: center;}
 .playVideo {border-radius: 40px; padding: 23px 60px 23px 60px; display: flex; background-color: #ffffffeb; cursor: pointer;}
 .playVideo img {margin: 0 10px 0 0;}
 .playVideo p {color: #407e97; font-family: GTEestiProDisplay-Medium;}
 
-.Block1Text {margin-right: 30px; font-family: GTEestiProDisplay-Medium; font-size: 28px; mar}
+.Block1Text {margin-right: 30px; font-family: GTEestiProDisplay-Medium; font-size: 28px;}
 
-.pg1Block {display: flex;}
+.pg1Block {display: flex; margin-bottom: 30px;}
 
 .Block2Text {color: #7b7b7b; font-size: 18px; line-height: 30px;}
 
@@ -124,4 +137,57 @@ button {cursor: pointer;}
 .card1:nth-last-child(2) {padding: 0 10px 0 10px;}
 .card1 img {width: 100%;}
 
-.cardText {margin: 10px 0 10px 0; color: #7b7b7b; font-size: 16.5;}
+.cardText {margin: 16px 0 16px 0; color: #7b7b7b; font-size: 16.5;}
+
+.imgSwype {bottom: 5%; right: 10%; position: absolute; border-radius: 5px; display: flex; flex-direction: column; background-color: white; padding: 15px; width: 400px;}
+.imgSwype p {font-size: 26px; font-family: GTEestiProDisplay-Medium; margin-bottom: 10px;}
+
+
+.SwypeButtons {display: flex; position: absolute; margin-top: 250px; margin-left: 300px;}
+.arrow {cursor: pointer; margin-left: 6px; background-color: white; display: flex; justify-content: center; align-items: center; border-radius: 100%; width: 30px; height: 30px;}\
+.arrow i {color: #a4a4a4;}
+.arrow:hover i {color: #343434;}
+
+.circle {position: absolute; transition: 0.1s; width: 32px; height: 32px; background: url('../img/circle1.png'); cursor: pointer;}
+.circle:hover {background: url('../img/circle2.png');}
+.circlePos1 {margin: 30% 0 0 15%;}
+.circlePos2 {margin: 30% 0 0 43%;}
+.circlePos3 {margin: 13% 0 0 60%;}
+.circlePos4 {margin: 23% 0 0 65%;}
+.circlePos5 {margin: 24% 0 0 36%;}
+
+
+
+
+.ButtonsDiv {margin: 0 0 100px 0; display: flex; justify-content: space-between; width: 100%;}
+
+
+.sliderLeft, .sliderRight {flex: 1;}
+
+.sliderRight {display: flex; justify-content: flex-end; align-items: flex-end;}
+
+.slider {display: flex;}
+.sliderLeftText1 {font-size: 28px; font-family: GTEestiProDisplay-Medium;}
+.sliderLeftText2 {margin: 40px 0 40px 0; font-size: 18px; font-family: GTEestiProDisplay-Light;}
+.sliderLeftText3 {font-size: 16px; font-family: GTEestiProDisplay-Light; color: #636366;}
+
+.RightImgWrapper {position: absolute; bottom: -1px;}
+
+
+.BlueGradient {position: absolute; margin-left: -200px; border-radius:10px; width: 300px; height: 300px; display: flex; justify-content: center; text-align: center; flex-direction: column; background: rgb(64,126,151); background: linear-gradient(90deg, rgba(64,126,151,1) 0%, rgba(51,93,110,1) 100%);}
+
+.BlueGradientText1 {color: white; font-size: 22.5px; font-family: GTEestiProDisplay-Medium;}
+.BlueGradientText2 {margin: 20px 0 20px 0; color: white; font-size: 16px; font-family: GTEestiProDisplay-Light;}
+
+
+.BlueCircles {display: flex; position: absolute; bottom: 5%;}
+.BlueCircle {cursor: pointer; margin-right: 10px; width: 10px; height: 10px; border: 1px solid #407e97; border-radius: 50px;}
+.BlueCircle2 {background-color: #407e97; cursor: pointer; margin-right: 10px; width: 10px; height: 10px; border: 1px solid #407e97; border-radius: 50px;}
+.BlueCircle:hover {background-color: #407e97;}
+
+
+
+
+
+
+

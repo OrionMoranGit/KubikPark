@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="styles/main.css">
 <body>
     <? include 'modules/leftmenu.php'; ?>
-	<div class="rightBlock">
+	<div class="rightBlock rightBlockImg1">
 		<? include 'modules/mainheader.php'; ?>
 		<div class="rightBlockBot">
 			<div class="playVideo"><img src="img/play.svg" alt=""><p>Смотреть видео</p></div>

@@ -1,12 +1,12 @@
 <div class="leftMenu">
         <div class="leftMenuTop">
-            <a href="../"><img class="logo1" src="img/logo1.png" alt=""></a>
+            <a href="/"><img class="logo1" src="img/logo1.png" alt=""></a>
             <div class="mainMenuDiv">
                 <ul>
                     <li><a href="houses.php">Перечень домов</a></li>
-                    <li>Инфраструктура</li>
-                    <li>Условия <br>приобретения</li>
-                    <li>Контакты</li>
+                    <li><a href="infrastructure.php">Инфраструктура</a></li>
+                    <li><a href="Termsofpurchase.php">Условия <br>приобретения</a></li>
+                    <li><a href="">Контакты</a></li>
                 </ul>
             </div>
         </div>
